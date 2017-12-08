@@ -25,6 +25,7 @@ module.exports = {
     filename: 'bundle.js',
   },
   target: 'web',
+  devtool: 'source-map',
   resolve: {
     extensions: ['.js', '.ts', '.tsx'],
     // Fix webpack's default behavior to not load packages with jsnext:main module
@@ -42,6 +43,10 @@ module.exports = {
             'react-hot-loader/webpack',
             'awesome-typescript-loader'
           ]
+      }, {
+        test: /.js$/,
+        loader: 'source-map-loader',
+        enforce: 'pre',
       },
       // css
       {
