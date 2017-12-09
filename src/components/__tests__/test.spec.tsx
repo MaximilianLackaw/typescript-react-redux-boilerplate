@@ -5,7 +5,7 @@ import { shallow } from "enzyme";
 import { Foo } from '../index';
 
 async function test() {
-  return (<h1>FooBar!</h1>);
+  return (<h1>FooBar</h1>);
 }
 
 it('should 1 + 1 = 2', () => {

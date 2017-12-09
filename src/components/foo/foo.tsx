@@ -8,6 +8,6 @@ export default class Hello extends React.Component {
   }
 
   render() {
-    return <h1 className={style.main} >FooBar!!!</h1>;
+    return <h1 className={style.main} >FooBar</h1>;
   }
 }
