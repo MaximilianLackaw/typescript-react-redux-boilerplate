@@ -76,6 +76,7 @@ module.exports = {
                 ident: 'postcss',
                 plugins: [
                   require('postcss-import')({}),
+                  require('postcss-css-reset')({}),
                   require('postcss-url')(),
                   require('postcss-cssnext')(),
                   require('postcss-reporter')(),

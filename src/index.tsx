@@ -4,7 +4,7 @@ import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { Route, Router, Switch } from 'react-router';
 
-import { App } from './containers/App/app';
+import App from './containers/app/app';
 import { configureStore } from './store';
 
 const store = configureStore();

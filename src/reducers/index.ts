@@ -1,7 +1,11 @@
 import { combineReducers, Reducer } from 'redux';
 
-export interface RootState {  // tslint:disable-line no-empty-interface
+import calculator from './calculator';
+
+export interface RootState {
+  calculator: CalculatorStoreState;
 }
 
 export default combineReducers<RootState>({
+  calculator,
 });
