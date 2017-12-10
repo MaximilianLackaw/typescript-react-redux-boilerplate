@@ -18,6 +18,11 @@
       "es6",
       "es7",
       "dom"
+    ],
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin"
+      }
     ]
   },
   "exclude": [
