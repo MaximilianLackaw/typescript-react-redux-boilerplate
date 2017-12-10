@@ -1,4 +1,4 @@
-import { handleActions } from 'redux-actions';
+import { Action, handleActions } from 'redux-actions';
 import { EDIT_FIRSTVALUE, EDIT_SECONDVALUE } from '../constants/actions';
 
 const initialState: CalculatorStoreState = {
@@ -10,17 +10,19 @@ const initialState: CalculatorStoreState = {
 export default handleActions<CalculatorStoreState, number>(
   {
     [EDIT_FIRSTVALUE]: (state, action) => {
+      const newFirstValue = action.payload;
       return {
         ...state,
-        firstInputValue: action.payload,
-        resultValue: action.payload + state.secondInputValue,
+        firstInputValue: newFirstValue,
+        resultValue: newFirstValue + state.secondInputValue,
       };
     },
     [EDIT_SECONDVALUE]: (state, action) => {
+      const newSecondValue = action.payload;
       return {
         ...state,
-        secondInputValue: action.payload,
-        resultValue: state.firstInputValue + action.payload,
+        secondInputValue: newSecondValue,
+        resultValue: state.firstInputValue + newSecondValue,
       };
     },
   },

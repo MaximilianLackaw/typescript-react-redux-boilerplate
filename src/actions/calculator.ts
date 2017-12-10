@@ -1,5 +1,10 @@
 import { createAction } from 'redux-actions';
 import * as Actions from '../constants/actions';
 
-export const editFirstValue = createAction<any>(Actions.EDIT_FIRSTVALUE);
-export const editSecondValue = createAction<any>(Actions.EDIT_SECONDVALUE);
+function identity<T>(arg: T): T {
+  return arg;
+}
+
+export const editFirstValue = createAction<number, number>(Actions.EDIT_FIRSTVALUE, identity);
+
+export const editSecondValue = createAction<number, number>(Actions.EDIT_SECONDVALUE, identity);
