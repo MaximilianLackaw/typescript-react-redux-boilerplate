@@ -4,31 +4,31 @@ Base project for setting up a frontend application using TypeScript and React.
 
 ## Contains
 
-- [x] [TypeScript](https://www.typescriptlang.org/) 2.6
-- [x] [React](https://facebook.github.io/react/) 16.1
-- [x] [Redux](https://github.com/reactjs/redux) 3.7
-- [x] [React Router](https://github.com/ReactTraining/react-router) 4.2
-- [x] [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension) 2.13
-- [x] A very simple calculator app
+- [TypeScript](https://www.typescriptlang.org/) 2.6
+- [React](https://facebook.github.io/react/) 16.1
+- [Redux](https://redux.js.org/) 3.7
+- [React Router](https://reacttraining.com/react-router/) 4.2
+- [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension) 2.13
+- A very simple calculator app
 
 ### Testing and linting
 
-- [x] [Jest](https://facebook.github.io/jest/) 21.2
-- [x] [TSLint](https://palantir.github.io/tslint/) 5.8
-- [x] [Stylelint](https://stylelint.io/) 8.3
+- [Jest](https://facebook.github.io/jest/) 21.2
+- [TSLint](https://palantir.github.io/tslint/) 5.8
+- [Stylelint](https://stylelint.io/) 8.3
 
 ### Build tools
 
-- [x] [Webpack](https://webpack.github.io) 3
-  - [x] [Tree Shaking](https://medium.com/@Rich_Harris/tree-shaking-versus-dead-code-elimination-d3765df85c80)
-  - [x] [Webpack Dev Server](https://github.com/webpack/webpack-dev-server)
-- [x] [Awesome Typescript Loader](https://github.com/s-panferov/awesome-typescript-loader)
-- [x] [PostCSS Loader](https://github.com/postcss/postcss-loader)
-  - [x] [CSS next](https://github.com/MoOx/postcss-cssnext)
-  - [x] [CSS modules](https://github.com/css-modules/css-modules)
-- [x] [React Hot Loader](https://github.com/gaearon/react-hot-loader)
-- [x] [ExtractText Plugin](https://github.com/webpack/extract-text-webpack-plugin)
-- [x] [HTML Webpack Plugin](https://github.com/ampedandwired/html-webpack-plugin)
+- [Webpack](https://webpack.js.org/) 3
+  - [Tree Shaking](https://medium.com/@Rich_Harris/tree-shaking-versus-dead-code-elimination-d3765df85c80)
+  - [Webpack Dev Server](https://github.com/webpack/webpack-dev-server)
+- [Awesome Typescript Loader](https://github.com/s-panferov/awesome-typescript-loader)
+- [PostCSS Loader](https://github.com/postcss/postcss-loader)
+  - [CSS next](https://github.com/MoOx/postcss-cssnext)
+  - [CSS modules](https://github.com/css-modules/css-modules)
+- [React Hot Loader](http://gaearon.github.io/react-hot-loader/)
+- [ExtractText Plugin](https://github.com/webpack/extract-text-webpack-plugin)
+- [HTML Webpack Plugin](https://github.com/ampedandwired/html-webpack-plugin)
 
 ## Setup
 
@@ -57,4 +57,4 @@ $ npm run build
 ## License
 
 This project is licensed under the MIT license, Copyright (c) 2017 Maximilian
-Lackaw. For more information see `LICENSE.md`.
+Lackaw. For more information see [`LICENSE.md`](LICENSE.md).
