@@ -19,8 +19,8 @@ class NumberInput extends React.Component<Props, State> {
   public render() {
     return (
       <input
-        className='NumberInput'
-        type='number'
+        className="NumberInput"
+        type="number"
         value={this.state.value}
         onChange={this.onChange}
       />

@@ -4,6 +4,7 @@ import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { Route, Router, Switch } from 'react-router';
 
+import About from './containers/about/about';
 import App from './containers/app/app';
 import { configureStore } from './store';
 
@@ -14,7 +15,8 @@ ReactDOM.render(
   <Provider store={store}>
     <Router history={history}>
       <Switch>
-        <Route path='/' component={App} />
+        <Route exact path="/" component={App} />
+        <Route path="/about" component={About} />
       </Switch>
     </Router>
   </Provider>,

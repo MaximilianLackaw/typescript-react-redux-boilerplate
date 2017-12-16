@@ -5,6 +5,7 @@ import { bindActionCreators } from 'redux';
 
 import * as CalculatorActions from '../../actions/calculator';
 import { Header, NumberDisplay, NumberInput } from '../../components';
+import NavigationLink from '../../components/navigation-link/navigation-link';
 import { RootState } from '../../reducers';
 import * as styles from './app.css';
 
@@ -16,15 +17,15 @@ interface Props {
 @connect(mapStateToProps, mapDispatchToProps)
 export default class App extends React.Component<Props, {}> {
   public render() {
-    const { actions, children } = this.props;
+    const { actions, resultValue } = this.props;
 
     return (
       <div className={styles.app}>
         <Header />
         <NumberInput onChange={actions.editFirstValue} />
         <NumberInput onChange={actions.editSecondValue} />
-        <NumberDisplay value={this.props.resultValue} />
-        {children}
+        <NumberDisplay value={resultValue} />
+        <NavigationLink route="/about" text="About page" />
       </div>
     );
   }
