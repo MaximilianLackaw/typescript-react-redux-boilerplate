@@ -65,12 +65,7 @@
       "jsx",
       "json",
       "node"
-    ],
-    "globals": {
-      "ts-jest": {
-        "tsConfigFile": "C:\\Users\\mlack\\dev\\reactBoilerplate\\my-app\\tsconfig.test.json"
-      }
-    }
+    ]
   },
   "devDependencies": {
     "@types/classnames": "2.2.3",
