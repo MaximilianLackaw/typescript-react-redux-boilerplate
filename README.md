@@ -5,7 +5,7 @@ Base project for setting up a frontend application using TypeScript and React.
 ## Contains
 
 - [TypeScript](https://www.typescriptlang.org/) 2.6
-- [React](https://facebook.github.io/react/) 16.1
+- [React](https://facebook.github.io/react/) 16.2
 - [Redux](https://redux.js.org/) 3.7
 - [React Router](https://reacttraining.com/react-router/) 4.2
 - [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension) 2.13
@@ -13,9 +13,9 @@ Base project for setting up a frontend application using TypeScript and React.
 
 ### Testing and linting
 
-- [Jest](https://facebook.github.io/jest/) 21.2
-- [TSLint](https://palantir.github.io/tslint/) 5.8
-- [Stylelint](https://stylelint.io/) 8.3
+- [Jest](https://facebook.github.io/jest/)
+- [TSLint](https://palantir.github.io/tslint/)
+- [Stylelint](https://stylelint.io/)
 
 ### Build tools
 
