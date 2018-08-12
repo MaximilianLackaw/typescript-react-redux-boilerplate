@@ -1,4 +1,4 @@
-import { Action, handleActions } from 'redux-actions';
+import { handleActions } from 'redux-actions';
 import { EDIT_FIRSTVALUE, EDIT_SECONDVALUE } from '../constants/actions';
 
 const initialState: CalculatorStoreState = {

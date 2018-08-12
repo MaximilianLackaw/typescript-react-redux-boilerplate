@@ -4,10 +4,10 @@ Base project for setting up a frontend application using TypeScript and React.
 
 ## Contains
 
-- [TypeScript](https://www.typescriptlang.org/) 2.6
-- [React](https://facebook.github.io/react/) 16.2
-- [Redux](https://redux.js.org/) 3.7
-- [React Router](https://reacttraining.com/react-router/) 4.2
+- [TypeScript](https://www.typescriptlang.org/) 3.0
+- [React](https://facebook.github.io/react/) 16.4
+- [Redux](https://redux.js.org/) 4.0
+- [React Router](https://reacttraining.com/react-router/) 4.3
 - [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension) 2.13
 - A very simple calculator app
 
@@ -19,9 +19,7 @@ Base project for setting up a frontend application using TypeScript and React.
 
 ### Build tools
 
-- [Webpack](https://webpack.js.org/) 3
-  - [Tree Shaking](https://medium.com/@Rich_Harris/tree-shaking-versus-dead-code-elimination-d3765df85c80)
-  - [Webpack Dev Server](https://github.com/webpack/webpack-dev-server)
+- [Webpack](https://webpack.js.org/) 4
 - [Awesome Typescript Loader](https://github.com/s-panferov/awesome-typescript-loader)
 - [PostCSS Loader](https://github.com/postcss/postcss-loader)
   - [CSS next](https://github.com/MoOx/postcss-cssnext)
